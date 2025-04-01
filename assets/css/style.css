@@ -6,9 +6,45 @@ html{
     font-family: inter, san-serif;
     font-size: 16px;
     line-height: 1.2;
-    text-align: center;
+    
+}
+ 
+body{
+    padding: 0 100px;
 }
 
-body{
-    
+img{
+    width: 1440px;
+    height: 830px;
+}
+
+.conteyner{
+    background-color: aliceblue;
+    height: 10vh;
+    padding: 10px;
+}
+
+.eats{
+    margin-right: auto ;
+}
+
+.info{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.bg-eats{
+    background-image: url(/assets/css/imeges/51c51a7e2807a7d0fadb9f1c2a8b1ef6.jpg);
+}
+
+.menu-restorants{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 60vh;
+    text-align: center;
+
 }
