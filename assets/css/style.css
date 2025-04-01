@@ -4,40 +4,62 @@
 
 html{
     font-family: inter, san-serif;
-    font-size: 16px;
-    line-height: 1.2;
+    font-size: 17px;
+    line-height: 1.5;
     
 }
- 
+  
 body{
-    padding: 0 100px;
+    background-color: gray;
+    max-width: 1500px;
+    min-width: 300px;
+    max-height: 1000px;
+    min-height: 400px;
+    margin-top: 10px;
+    padding: 15px;
+}
+.centr-wrapper{
+    padding: 10px;
+    max-width: 800px;
+    min-width: 320;
+    width: 100%;
 }
 
-img{
-    width: 1440px;
-    height: 830px;
-}
 
 .conteyner{
-    background-color: aliceblue;
+    background-color:white;
     height: 10vh;
-    padding: 10px;
+    padding: 20px;
 }
 
 .eats{
     margin-right: auto ;
+    color: rgb(68, 164, 237);
+    text-decoration-line:underline; 
+}
+
+.home{
+    color: orangered;
 }
 
 .info{
     display: flex;
     justify-content: flex-end;
-    gap: 20px;
+    padding: auto;
+    gap: 30px;
 }
 
 .bg-eats{
     background-image: url(/assets/css/imeges/51c51a7e2807a7d0fadb9f1c2a8b1ef6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
+.size{
+    font-size: 2rem;
+    font-weight: 500;
+}
 .menu-restorants{
     display: flex;
     flex-direction: column;
@@ -46,5 +68,30 @@ img{
     gap: 10px;
     height: 60vh;
     text-align: center;
+    color: white;
 
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.delivery{
+    border-radius: 10px;
+    background-color:orangered ;
+    padding: 10px;
+    width: 100px;
+}
+
+.menu{
+    border-radius: 10px;
+    border-color: white;
+    background-color: inherit;
+    color: white;
+    padding: 10px;
+    width: 100px;
+}
 }
