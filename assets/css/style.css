@@ -3,19 +3,18 @@
 }
 
 html{
-    font-family: inter, san-serif;
     font-size: 17px;
+    font-family: inter, san-serif;
     line-height: 1.5;
-    
 }
   
 body{
-    background-color: gray;
+    background-color:#FDFDFD;
     max-width: 1500px;
-    min-width: 300px;
-    max-height: 1000px;
+    min-width: 350px;
+    max-height: 800px;
     min-height: 400px;
-    margin-top: 10px;
+    margin:50px 10px 50;
     padding: 15px;
 }
 .centr-wrapper{
@@ -47,6 +46,7 @@ body{
     justify-content: flex-end;
     padding: auto;
     gap: 30px;
+    font-size: small;
 }
 
 .bg-eats{
@@ -95,11 +95,44 @@ body{
     width: 100px;
 }
 
+.about-works{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: black;
+    font-size: 2rem;
+}
+
 .application{
     display: flex;
-    justify-content: space-between;
+    gap: 50px;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2em;
 }
-.content{
+.content,img{
+    width: 100%;
+    height:500px;
+    object-fit: contain;
+}
+.paragraf{
+    color:orangered ;
+    font-size: small;
+    margin-bottom: 10px;
+}
+.spesial{
+    color: black;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.application2{
     display: flex;
-    justify-content: left;
+    flex-direction: row-reverse;
+    gap: 50px;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2em;
 }
