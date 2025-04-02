@@ -76,7 +76,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 100px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .delivery{
@@ -135,4 +135,26 @@ body{
     min-width: 300px;
     margin: 0 auto;
     padding: 2em;
+}
+.bg-order{
+    background-image: url(/assets/css/imeges/62e47d4ba6308cc4a1c5c2d5a9ad2351.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.order{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 60vh;
+    text-align: center;
+    color: white;
+}
+.restaurant-card{
+    border:3px solid red;
+    border-radius: 30px;
+    padding: 20px;
+
 }
