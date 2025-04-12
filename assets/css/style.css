@@ -152,7 +152,7 @@ h1{
     text-align: center;
     color: white;
 }
-.restaurant-card{
+.restorant-cards{
     border:3px solid rgb(157, 147, 147);
     border-radius: 30px;   
     overflow: hidden;
